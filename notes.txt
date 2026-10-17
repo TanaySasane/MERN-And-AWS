@@ -205,3 +205,4 @@ Browser = Displays websites.
 Terminal = Command-line interface.
 HTTP = Communication protocol for web data.
 HTTPS = Secure, encrypted version of HTTP.
+the day one concepts are doe we have learn git,terminal and how client server architectur runs.
