@@ -1,0 +1,207 @@
+Quick Notes: Git, Browser, Terminal, HTTP & HTTPS
+1. Git
+What is Git?
+
+Git is a Version Control System (VCS) used to track changes in code and collaborate with other developers.
+
+Why Use Git?
+Tracks code history
+Allows collaboration
+Helps revert mistakes
+Supports branching and merging
+Important Git Commands
+git init
+
+
+Initialize a new Git repository.
+
+git status
+
+
+Check the status of files.
+
+git add .
+
+
+Stage all changes.
+
+git commit -m "message"
+
+
+Save changes with a message.
+
+git push
+
+
+Upload local changes to a remote repository.
+
+git pull
+
+
+Download latest changes from a remote repository.
+
+git clone <repository-url>
+
+
+Copy a repository to your local machine.
+
+Key Terms
+Repository (Repo): Project folder tracked by Git.
+Commit: Snapshot of changes.
+Branch: Independent line of development.
+Merge: Combine branches.
+Remote: Repository stored online (GitHub, GitLab).
+2. Browser
+What is a Browser?
+
+A browser is software used to access and display websites.
+
+Examples
+Google Chrome
+Microsoft Edge
+Mozilla Firefox
+Safari
+How Browsers Work
+User enters a URL.
+Browser sends a request to a server.
+Server responds with webpage data.
+Browser renders HTML, CSS, and JavaScript.
+Webpage is displayed.
+Components
+Address Bar
+Tabs
+Bookmarks
+Developer Tools (F12)
+Browser Developer Tools
+
+Useful for:
+
+Inspecting HTML/CSS
+Debugging JavaScript
+Viewing network requests
+Checking console errors
+3. Terminal
+What is a Terminal?
+
+A terminal is a command-line interface used to interact with the operating system.
+
+Common Commands
+Navigation
+pwd
+
+
+Shows current directory.
+
+ls
+
+
+Lists files and folders.
+
+cd folder-name
+
+
+Changes directory.
+
+File Operations
+mkdir project
+
+
+Create folder.
+
+touch file.txt
+
+
+Create file.
+
+rm file.txt
+
+
+Delete file.
+
+Why Developers Use Terminal?
+Faster than GUI
+Run Git commands
+Execute programs
+Manage files efficiently
+4. HTTP
+What is HTTP?
+
+HyperText Transfer Protocol
+
+A protocol that allows communication between a web browser and a web server.
+
+How HTTP Works
+
+Browser → Request → Server
+
+Server → Response → Browser
+
+Request Methods
+Method	PurposeGET	Retrieve data
+POST	Send data
+PUT	Update data
+DELETE	Remove data
+Characteristics
+Stateless
+Application layer protocol
+Uses Port 80 by default
+Example
+GET /index.html HTTP/1.1
+Host: example.com
+
+5. HTTPS
+What is HTTPS?
+
+HyperText Transfer Protocol Secure
+
+HTTPS is the secure version of HTTP.
+
+Why HTTPS?
+Encrypts data
+Protects passwords
+Prevents data tampering
+Verifies website identity
+Uses
+Online banking
+E-commerce
+Login pages
+Secure communications
+Port
+
+HTTPS uses Port 443.
+
+HTTP vs HTTPS
+Feature	HTTP	HTTPSSecurity	No	Yes
+Encryption	No	SSL/TLS
+Port	80	443
+URL	http://	https://
+Data Protection	Low	High
+Example
+
+❌ http://example.com
+
+✅ https://example.com
+
+Interview Questions
+Git
+What is Git?
+Difference between Git and GitHub?
+What is a branch?
+What is a commit?
+Browser
+How does a browser render a webpage?
+What are Developer Tools?
+Terminal
+Difference between cd and ls?
+What is the purpose of pwd?
+HTTP/HTTPS
+What is HTTP?
+How is HTTPS more secure?
+What are GET and POST methods?
+What ports do HTTP and HTTPS use?
+One-Line Revision
+Git = Tracks code changes.
+Browser = Displays websites.
+Terminal = Command-line interface.
+HTTP = Communication protocol for web data.
+HTTPS = Secure, encrypted version of HTTP.
